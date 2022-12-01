@@ -11,12 +11,19 @@ export const Navbar = () => {
 
     return (
         <nav>
-            <div className="nav-wrapper orange-yellow">
-                <a href="/" className="">Home</a>
+            <div className="nav-wrapper orange darken-2">
                 <ul id="nav-mobile" className="right">
-                    <li><NavLink to="/create">Create</NavLink></li>
-                    <li><NavLink to="/links">Links</NavLink></li>
-                    <li><Link to='/' onClick={logoutHandler}>LogOut</Link></li>
+                    <li>
+                        <NavLink to="/create">Create</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/links">Links</NavLink>
+                    </li>
+                    <li>
+                        <Link to="/" onClick={logoutHandler}>
+                            LogOut
+                        </Link>
+                    </li>
                 </ul>
             </div>
         </nav>

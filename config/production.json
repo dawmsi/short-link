@@ -2,5 +2,5 @@
     "port": 5000,
     "jwtSecret": "forever younG Man",
     "mongoUrl": "mongodb+srv://dawmsi:yxUcPaVRVKF53Z15@cluster0.51tnhir.mongodb.net/?retryWrites=true&w=majority",
-    "baseUrl": "http://localhost:5000"
+    "baseUrl": "http://35.212.241.152:5000"
 }

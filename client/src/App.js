@@ -7,10 +7,6 @@ import { Navbar } from './components/Navbar';
 import { Loader } from './components/Loader';
 import 'materialize-css'
 
-
-
-
-
 function App() {
   const { login, logout, token, userId, ready } = useAuth()
   const isAuthenticated = !!token

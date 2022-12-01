@@ -1,1 +1,30 @@
-@import  "~materialize-css";
+@import '~materialize-css';
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.material-icons.prefix.active {
+    color: orange;
+}
+
+.input-field input:not(.browser-default):focus:not([readonly]) {
+    border-bottom: 1px solid orange;
+    box-shadow: 0 1px 0 0 orange;
+}
+
+table td {
+    word-wrap: break-word;
+    max-width: 130px;
+}
+i {
+    color: black;
+}
